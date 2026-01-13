@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TrustCart AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>TrustCart AI</h1>
+  <p>Paste a product description or sales offer to check trustworthiness.</p>
+
+  <textarea id="inputText" placeholder="Paste sales pitch here..."></textarea>
+  <br>
+  <button onclick="submitText()">Analyze Trust</button>
+
+  <p id="status"></p>
+
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+
+  <script src="app.js"></script>
+</body>
+</html>
